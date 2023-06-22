@@ -1,0 +1,83 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Kelas untuk menulis perintah */
+.paragraph {
+    text-align: center;
+    font-size: 19px;
+}
+
+label {
+    margin-bottom: 4px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Tanda untuk ID */
+#inputField {
+    outline: none;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 10px;
+    border: solid grey;
+    padding: 10px;
+}
+
+/* Posisi Tombol */
+.InputButtonSection {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+/* penunjuk tangan untuk menekan tombol */
+button {
+    background-color: chartreuse;
+    color: darkgoldenrod;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+/* Memposisikan pengukuran suhu dan tombol ditengah*/
+.InputSection {
+    display: flex;
+    flex-direction: column;
+}
+
+/* animasi efek pada tombol */
+button:hover {
+    background-color: #0e2945;
+}
+
+/* Animasi onClick ketika user menekan tombol */
+button:active {
+    transform: translateY(8px);
+    background-color: crimson;
+}
+
+.inputField:focus {
+    border: solid #0e2945;
+}
+
+/* Untuk Judul Baru Agak Bawah */
+.bentukTulisan {
+    font-weight: bold;
+}
+
+/* Menebalkan rumus penghitungan suhu */
+.tulisanTebal, .menebalkanTulisan {
+    font-weight: bold;
+}
